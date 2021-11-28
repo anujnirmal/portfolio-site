@@ -259,6 +259,28 @@ a{
     cursor: pointer;
 }
 
-@media  {
-    
+@media  (max-width: 800px){
+    #navbar{
+        justify-content: center;
+    }
+
+    ul{
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    #contact h2{
+        font-size: 1.8rem;
+    }
+
+    .icons-class{
+        font-size: 3rem;
+    }
+
+    #project-grid{
+        justify-content: center;
+    }
+    .project-tile{
+        text-align: center;
+    }
 }
